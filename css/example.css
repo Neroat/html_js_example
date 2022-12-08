@@ -1,3 +1,20 @@
 body{
     background-color: turquoise;
 }
+.inline{
+    display: inline-block;
+    cursor: pointer;
+}
+.red{
+    color: red;
+}
+
+.modalContent{
+    width: 300px;
+    height: 200px;
+    
+}
+
+#inputModal::backdrop{
+    background-color: rgba(0,0,0, 0.7);
+}
