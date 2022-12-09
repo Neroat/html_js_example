@@ -9,7 +9,8 @@ const CheckEmail =(str) => {
 	if (!reg_email.test(str)) {
     alert('이메일 형식을 지켜주세요.');
     return false;
-  }
+  } 
+  
 	else return true;
 }
 
